@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Z6D33JHD6H"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-Z6D33JHD6H");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Sudeep Acharjee Portfolio, Projects" />
+    <meta
+      name="keywords"
+      content="SudeepAcharjee, HTML, CSS, JavaScript"
+    />
+    <meta name="author" content="SudeepAcharjee" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./static/css/base.css">
+    
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/footer.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/favicon_io(8)/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./1.css" />
+    <title>Fantastic 4s</title>
+  </head>
+  <body>
+    
+    <div class="landing-page" id="lp">
+      <nav class="nav">
+        <div class="nav_con">
+          <div class="nav_logo"><img src="../img/logo-removebg-preview(1).png"></div>
+          <div class="nav_menu">
+            <div class="nav_menu--line f-m-line"></div>
+            <div class="nav_menu--line s-m-line"></div>
+          </div>
+          <div class="nav_lc">
+            <div class="nav_lc--mode">
+              <button
+                class="nav_lc--mode-btn lighter"
+                data-mode="light-mode"
+                data-btn="darker"
+              >
+                <svg class="sun">
+                  <use xlink:href="../img/sprite.svg#icon-sun"></use>
+                </svg>
+              </button>
+              <button
+                class="nav_lc--mode-btn darker"
+                data-mode="dark-mode"
+                data-btn="lighter"
+              >
+                <svg class="moon">
+                  <use xlink:href="../img/sprite.svg#icon-moon"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="nav_content">
+          <div class="nav_content_m">
+            <a class="nav_content_m-link home" href="../index.html"
+              >HOME<span class="nav-line"></span
+            ></a>
+            <a class="nav_content_m-link about-link" href="https://gyan007.github.io/Gyan-s-Portfolio/"
+              >About Me<span class="nav-line"></span
+            ></a>
+            <a class="nav_content_m-link" href="Conatct.html"
+              >Contact <span class="nav-line"></span
+            ></a>
+            
+          </div>
+        </div>
+      </nav>
+
+
+      <main>
+        <div class="title">Contact us</div>
+        <div class="title-info">We'll get back to you soon!</div>
+    
+        <!-- Replace the action URL with your Formspree endpoint -->
+        <form action="https://formspree.io/f/mblgqjbd" method="POST" class="form">
+            <div class="input-group">
+                <input type="text" name="first_name" id="first-name" placeholder="First name" required>
+                <label for="first-name">First name</label>
+            </div>
+            
+            <div class="input-group">
+                <input type="text" name="last_name" id="last-name" placeholder="Last Name" required>
+                <label for="last-name">Last name</label>
+            </div>
+    
+            <div class="input-group">
+                <input type="email" name="e-mail" id="e-mail" placeholder="e-mail" required>
+                <label for="e-mail">e-mail</label>
+            </div>
+    
+            <div class="textarea-group">
+                <textarea name="message" id="message" rows="5" placeholder="Message" required></textarea>
+                <label for="message">Message</label>
+            </div>
+    
+            <div class="button-div">
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </main>
+    
+
+
+
+      
+
+   
+    <script src="../script.js"></script>
+ 
+  </body>
+</html>
